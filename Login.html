@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+
+    <!-- Login CSS -->
+    <link rel="stylesheet" href="./Login.css">
+</head>
+<body>
+
+    <!-- Login container -->
+    <div class="login">
+
+        <!-- Optional image section -->
+        <div class="thumbnail"></div>
+
+        <!-- Login form -->
+        <form>
+            <!-- Email -->
+            <label>Email :</label>
+            <input type="email" id="uname" required>
+
+            <!-- Password -->
+            <label>Password :</label>
+            <input type="password" id="upwd" required>
+
+            <!-- Login button -->
+            <!-- type="submit" + event.preventDefault() handled in JS -->
+            <button type="submit" onclick="CheckLogin(event)">Login</button>
+
+            <!-- Register link -->
+            <p>New User ? <a href="./Register.html">Register</a></p>
+        </form>
+
+    </div>
+
+    <!-- JS file -->
+    <script src="./JKart.js"></script>
+</body>
+</html>

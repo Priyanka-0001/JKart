@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+
+    <!-- Register CSS -->
+    <link rel="stylesheet" href="./Register.css">
+</head>
+<body>
+
+    <!-- Register form -->
+    <form>
+
+        <label>Name :</label>
+        <input type="text" id="name" required>
+
+        <label>Phone :</label>
+        <input type="tel" pattern="[0-9]{10}" id="phone" required>
+
+        <label>Email :</label>
+        <input type="email" id="email" required>
+
+        <label>DOB :</label>
+        <input type="date" id="date" required>
+
+        <label>Password :</label>
+        <input type="password" id="pwd" required>
+
+        <label>Profile Image URL :</label>
+        <input type="text" id="img">
+
+        <!-- Register button -->
+        <button type="submit" onclick="addInfo(event)">Register</button>
+
+    </form>
+
+    <!-- JS file -->
+    <script src="./JKart.js"></script>
+</body>
+</html>

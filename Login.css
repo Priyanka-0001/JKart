@@ -1,0 +1,51 @@
+/* Login page container */
+.login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Login form */
+.login form {
+    display: grid;
+
+    /* Label | input */
+    grid-template-columns: 120px 250px;
+
+    gap: 20px;
+    font-size: 20px;
+
+    box-shadow: 0px 0px 10px gray;
+    border-radius: 10px;
+    padding: 20px;
+
+    width: 420px;
+    background-color: white;
+}
+
+/* Input fields */
+.login input {
+    padding: 8px;
+    font-size: 16px;
+}
+
+/* Login button */
+.login button {
+    grid-column: span 2;
+    background-color: brown;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+/* Register link text */
+.login p {
+    grid-column: span 2;
+    text-align: center;
+    font-size: 16px;
+}

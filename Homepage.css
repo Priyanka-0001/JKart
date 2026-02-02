@@ -1,0 +1,130 @@
+/* ===================== General Styles ===================== */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+
+.homepage {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+/* ===================== Card Styles ===================== */
+.card {
+    background-color: #fff;
+    width: 220px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: transform 0.2s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+/* Product Image */
+.pimage {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+}
+
+/* Card Description */
+.desc {
+    padding: 10px;
+    text-align: center;
+}
+
+.brand, .model {
+    margin: 5px 0;
+    font-weight: 600;
+}
+
+/* Price and Rating */
+.rate {
+    margin: 10px 0;
+}
+
+.price {
+    color: #ff5722;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.rating {
+    color: #ffc107;
+}
+
+/* Buttons */
+button {
+    cursor: pointer;
+    padding: 8px 12px;
+    border-radius: 5px;
+    border: none;
+    font-weight: bold;
+    transition: background-color 0.2s;
+}
+
+.btn-warning {
+    background-color: #ffc107;
+    color: #000;
+    margin: 5px 5px 5px 0;
+}
+
+.btn-warning:hover {
+    background-color: #e0a800;
+}
+
+.btn-outline-danger {
+    background-color: #fff;
+    border: 2px solid #dc3545;
+    color: #dc3545;
+    margin-top: 5px;
+}
+
+.btn-outline-danger:hover {
+    background-color: #dc3545;
+    color: #fff;
+}
+
+/* ===================== Responsive ===================== */
+@media (max-width: 768px) {
+    .card {
+        width: 45%;
+    }
+}
+
+@media (max-width: 480px) {
+    .card {
+        width: 90%;
+    }
+}
+
+#cartBtn{
+    display: inline-block;
+    margin: 15px;
+    font-weight: bold;
+}
+
+
+.qtyBox {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.qtyBox button {
+    width: 30px;
+    height: 30px;
+    font-size: 18px;
+    cursor: pointer;
+}
