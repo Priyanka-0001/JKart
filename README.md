@@ -1,10 +1,10 @@
-# Project Title : JKart – JavaScript Based E-Commerce Application
+# JKart – JavaScript Based E-Commerce Application
 
 ## Description 
 JKart is a frontend-only e-commerce web application built using HTML, CSS, and JavaScript.
-It allows users to register, login, browse products, add items to cart, update quantities, and view cart details.
+It allows users to register, log in, browse products, add items to the cart, update quantities, and view cart details.
 All data is stored and managed using browser localStorage, without any backend or database.
-This project focuses on core JavaScript concepts, DOM manipulation, event handling, and application flow.
+This project focuses on core JavaScript concepts, DOM manipulation, event handling, and end-to-end application flow.
 
 
 ## Features
@@ -21,7 +21,7 @@ This project focuses on core JavaScript concepts, DOM manipulation, event handli
 
 ## Technologies Used
 - HTML5 – Structure
-- CSS3 – Styling & Responsive layout
+- CSS3 – Styling and responsive layout
 - JavaScript (ES6) – Logic & Interactivity
 - Fetch API – Product data retrieval
 - Browser localStorage – Data persistence
@@ -30,10 +30,10 @@ This project focuses on core JavaScript concepts, DOM manipulation, event handli
 ## Project Structure
 JKart/
 │
-├── Login.html
-├── Register.html
-├── Homepage.html
-├── Cart.html
+├── Login.html        # User login page
+├── Register.html     # User registration page
+├── Homepage.html     # Product Listing 
+├── Cart.html         # Cart management page
 │
 ├── Login.css
 ├── Register.css
@@ -75,7 +75,7 @@ JKart/
 - No server or backend setup required
 
 ## Usage
-Visit `http://127.0.0.1:5500/Login.html` in your browser to use the application.
+Open Login.html directly in a browser or use Live Server in VS Code.
 
 ## Key Concepts Implemented
 - DOM Manipulation
